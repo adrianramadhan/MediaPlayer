@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
 
         mediaController= new MediaController(this);
         videoUris = new Uri[] {
-                Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.ifest),
-                Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.salting),
-                Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.usahakan)
+                Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.meme),
+                Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.meme2),
+                Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.meme3)
         };
 
 

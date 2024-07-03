@@ -24,10 +24,10 @@ public class MainActivity2 extends AppCompatActivity {
     TextView tvNama;
     ImageView imageView;
     //array songs
-    int[] songs = {R.raw.lagupernikahan, R.raw.perayaanmatirasa};
+    int[] songs = {R.raw.somebodypleasure, R.raw.itsonlyme};
     //array images
-    int[] images = {R.drawable.lagupernikahankita, R.drawable.perayaanmatirasa};
-    String[] songNames = {"Lagu Pernikahan Kita", "Perayaan Mati Rasa"};
+    int[] images = {R.drawable.somebodypleasure, R.drawable.kalebj};
+    String[] songNames = {"Somebody Pleasute", "It's Only Me"};
     int currentSongIndex = 0;
     Button btPlay, btPause, btStop, btNext, btPrevious, btDashboard;
     @SuppressLint("MissingInflatedId")
